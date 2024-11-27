@@ -53,7 +53,7 @@ while(salir==1):
         if(cant>=20):
             print("¡Obtuviste un descuento del 20%!")
             facturatotal=facturatotal+fac20(gaseosa,cant)
-        if(cant<5):
+        if (cant<5):
             facturatotal=facturatotal+fac(gaseosa,cant)
     if(produ == 2):
         cant=int(input("¿Qué cantidad de galletas deseas comprar?: "))
